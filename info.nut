@@ -41,11 +41,11 @@ class MainClass extends GSInfo
 	
 		AddSetting({ name = "industry_NewGRF",
 				description = "Which industry set is being used?",
-				easy_value = 1,
-				medium_value = 1,
-				hard_value = 1,
-				custom_value = 1,
-				flags = CONFIG_NONE, min_value = 1, max_value = 24 });
+				easy_value = 5,
+				medium_value = 5,
+				hard_value = 5,
+				custom_value = 5,
+				flags = CONFIG_INGAME, min_value = 1, max_value = 24 });
 		AddLabels("industry_NewGRF", { 
 					_1 = "Baseset: Temperate",
 					_2 = "Baseset: Arctic",
